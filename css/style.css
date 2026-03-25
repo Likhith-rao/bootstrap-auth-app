@@ -1,0 +1,48 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.bg-gradient {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.login-card {
+    max-width: 420px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 25px;
+    transition: .3s;
+}
+
+.login-card:hover {
+    transform: translateY(-5px);
+}
+
+.dashboard-card {
+    border-radius: 15px;
+}
+
+button {
+    transition: .3s;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+a {
+    text-decoration: none;
+}
+
+@media(max-width:576px) {
+    .login-card {
+        padding: 20px;
+    }
+    h2,
+    h3,
+    h4 {
+        font-size: 22px;
+    }
+}
